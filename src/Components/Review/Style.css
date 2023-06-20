@@ -1,0 +1,43 @@
+/* Review Section Start */
+#review {
+  background: #f8f8f8;
+  padding: 70px 0;
+  margin: 60px 0;
+}
+
+#review img {
+  width: 180px;
+  position: relative;
+  border: 3px solid #95e1d3;
+  padding: 40px;
+}
+
+.review-desc {
+  position: relative;
+}
+
+.review-desc p {
+  color: #535353;
+  font-size: 20px;
+  list-style: 22px;
+  padding: 0 50px;
+  font-family: "Roboto";
+}
+
+.review-desc h3 {
+  margin-left: 120px;
+  font-family: "Caveat";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.review-desc h3::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 60px;
+  left: 50px;
+  bottom: 40px;
+  background-color: #f38181;
+}
+/* Review Section End */
