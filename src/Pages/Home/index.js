@@ -6,6 +6,7 @@ import CounterUp from '../../Components/CounterUp/CounterUp';
 import Service from '../../Components/Service/Service';
 import Review from '../../Components/Review/Review';
 import Team from '../../Components/Team/Team';
+import Portfolio from '../../Components/Portfolio/Portfolio';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Service />
             <Review />
             <Team />
+            <Portfolio />
         </React.Fragment>
     )
 }
