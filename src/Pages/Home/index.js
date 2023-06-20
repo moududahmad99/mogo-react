@@ -5,6 +5,7 @@ import About from '../../Components/About/About';
 import CounterUp from '../../Components/CounterUp/CounterUp';
 import Service from '../../Components/Service/Service';
 import Review from '../../Components/Review/Review';
+import Team from '../../Components/Team/Team';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <CounterUp />
             <Service />
             <Review />
+            <Team />
         </React.Fragment>
     )
 }
