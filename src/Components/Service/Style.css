@@ -1,0 +1,21 @@
+/* Service Section Start */
+.service-card {
+  gap: 30px;
+}
+.service-card a {
+  font-size: 40px;
+  color: #95e1d3;
+}
+
+.service-text h3 {
+  font-size: 16px;
+  font-family: "Montserrat";
+  line-height: 20px;
+}
+
+.service-text p {
+  font-family: "Roboto";
+  color: #535353;
+  font-weight: 300;
+}
+/* Service Section End */

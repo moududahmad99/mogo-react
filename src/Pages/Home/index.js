@@ -1,8 +1,9 @@
-import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar'
-import Banner from '../../Components/Banner/Banner'
-import About from '../../Components/About/About'
-import CounterSection from '../../Components/CounterUp/CounterUp'
+import React from 'react';
+import Navbar from '../../Components/Navbar/Navbar';
+import Banner from '../../Components/Banner/Banner';
+import About from '../../Components/About/About';
+import CounterUp from '../../Components/CounterUp/CounterUp';
+import Service from '../../Components/Service/Service';
 
 const Home = () => {
     return (
@@ -10,9 +11,10 @@ const Home = () => {
             <Navbar />
             <Banner />
             <About />
-            <CounterSection />
+            <CounterUp />
+            <Service />
         </React.Fragment>
     )
 }
 
-export default Home
+export default Home;
