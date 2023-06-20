@@ -7,6 +7,7 @@ import Service from '../../Components/Service/Service';
 import Review from '../../Components/Review/Review';
 import Team from '../../Components/Team/Team';
 import Portfolio from '../../Components/Portfolio/Portfolio';
+import Footer from '../../Components/Footer/Footer';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Review />
             <Team />
             <Portfolio />
+            <Footer />
         </React.Fragment>
     )
 }
