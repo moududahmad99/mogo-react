@@ -34,14 +34,15 @@ const Navbar = () => {
                                     Service
                                 </a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#portfolio">
-                                    Work
-                                </a>
-                            </li>
+                            
                             <li className="nav-item">
                                 <a className="nav-link" href="#team">
                                     Team
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#portfolio">
+                                    Work
                                 </a>
                             </li>
                             <li className="nav-item">
